@@ -1,0 +1,68 @@
+.network_service_works_notification_container{
+    background-color: #f1f1f1;
+    /* padding-top: 20px;
+    padding-bottom: 45px; */
+    padding: 10px 0;
+
+}
+
+.network_service_works_notification_wraper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: auto;
+    color: #373f50;
+}
+
+.network_service_works_notification_container .network_service_works_notification_icon{
+    margin-left: 20px;
+    float: left;
+    background: url("./img/information-icon.svg") no-repeat;
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+}
+
+.network_service_works_notification_container .network_service_works_notification_text{
+    padding-left: 20px;
+    float: left;
+}
+
+.network_service_works_notification_container .network_service_works_notification_link{
+    padding-left: 10px;
+    float: left;
+}
+
+.network_service_works_notification_container .network_service_works_notification_link a{
+    color: #373f50;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+    margin-top: -8px;
+}
+
+.network_service_works_notification_container .network_service_works_notification_close{
+    margin-top: -7px;
+    float: right;
+}
+
+@media all and (max-width: 768px){
+    .network_service_works_notification_container .network_service_works_notification_text{
+        float: none;
+        padding-left: 65px;
+        padding-right: 40px;
+    }
+
+    .network_service_works_notification_container .network_service_works_notification_link{
+        float: none;
+        padding-left: 65px;
+    }
+
+    .network_service_works_notification_container .network_service_works_notification_close{
+        margin-top: -50px;
+    }
+
+    .network_service_works_notification_container{
+        padding-bottom: 20px;
+    }
+}

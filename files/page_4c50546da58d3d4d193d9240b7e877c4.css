@@ -1,0 +1,397 @@
+
+
+/* Start:/local/templates/.default/components/adv/system.conf/.default/style.css?16148693866535*/
+@media (max-width: 350px){
+	.selection-tariffs__amount{
+		max-width: 110px !important;
+	}
+
+}
+
+@media (max-width: 768px){
+	.selection-tariffs__main .display-only-mobile{
+		display: block;
+	}
+
+	/* отступы */
+	.selection-tariffs__main {
+		padding: 10px 20px 10px !important;
+	}
+
+	.selection-tariffs__aside {
+		flex-shrink: 0;
+		width: 350px;
+		background-color: #f7f7f7;
+		padding: 10px 20px 10px;
+	}
+
+	.selection-tariffs__info {
+		display: block;
+		margin: 10px 0 0;
+		font-size: 13px;
+		line-height: 15px;
+		padding-left: 55px;
+	}
+
+	.selection-tariffs__block {
+		padding-top: 0px!important;
+		margin-top: 0px!important;
+	}
+
+	.selection-tariffs__block_discount .selection-tariffs__slider {
+		margin: 0px 0 0 !important;
+		margin-bottom: 0px !important;
+	}
+
+	.selection-tariffs__slider {
+		margin-bottom: 0px!important;
+	}
+
+	.selection-tariffs__total {
+		margin-top: 0px !important;
+		padding-top: 10px !important;
+	}
+	.selection-tariffs__title {
+		margin-bottom: 0px !important;
+	}
+
+}
+
+@media (min-width: 768px)
+{
+	.selection-tariffs__main .display-only-mobile{
+		display: none;
+	}
+}
+
+.showDiscountNewHasDiscount h3{
+	display: block;
+	margin: 0 0 13px;
+	font-size: 23px;
+	line-height: 22px;
+	color: #000;
+	font-weight: bold;
+}
+
+.RectangleOne {
+	width: 3px;
+	height: 28px;
+	transform: rotate(-225deg);
+	background-color: #b3b3b3;
+	position: absolute;
+	top: 0px;
+	/*left: 20px;*/
+
+}
+
+.RectangleTwo {
+	width: 3px;
+	height: 28px;
+	transform: rotate(-315deg);
+	background-color: #b3b3b3;
+	position: absolute;
+	top: 0px;
+	/*left: 20px;*/
+
+}
+
+.EqualsOne{
+	width: 3px;
+	height: 28px;
+	transform: rotate(-270deg);
+	background-color: #b3b3b3;
+	position: absolute;
+	top: -3px;
+}
+
+.EqualsTwo{
+	width: 3px;
+	height: 28px;
+	transform: rotate(-270deg);
+	background-color: #b3b3b3;
+	position: absolute;
+	top: 7px;
+}
+
+.discountNewTableCloseContainer{
+	width: 55px;
+	position: relative;
+}
+
+.discountNewTableHeader{
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.discountNewTableContent{
+	font-size: 23px;
+	font-weight: 600;
+}
+
+
+.discountNewTableContent span{
+	font-size: 27px;
+}
+
+.showDiscoubtNullInterbet{
+	text-align: left;
+	padding: 10px;
+	color: #373f50;
+	font-size: 26px;
+	font-weight: 600;
+}
+
+.discountNewTableHeaderColorBlack, .discountNewTableContentColorBlack{
+	color: black;
+}
+
+.discountNewTableHeaderColorRed, .discountNewTableContentColorRed{
+	color: red;
+}
+
+@media (max-width: 890px) {
+	.showDiscountNewHasDiscount, .showDiscoubtNullInterbet{
+		margin-top: 20px;
+	}
+
+	.showDiscountNewHasDiscount h3{
+		font-size: 18px;
+	}
+
+	.showDiscoubtNullInterbet{
+		font-size: 18px;
+	}
+
+	.discountNewTableHeader{
+		font-size: 13px;
+	}
+
+	.discountNewTableContent span{
+		font-size: 18px;
+	}
+
+	.discountNewTableContent{
+		font-size: 14px;
+	}
+
+	.discountNewTableCloseContainer{
+		width: 30px;
+	}
+
+	.RectangleOne {
+		height: 16px;
+		top: 3px;
+	}
+
+	.RectangleTwo {
+		height: 16px;
+		top: 3px;
+	}
+
+	.EqualsOne{
+		height: 16px;
+		top: 2px;
+	}
+
+	.EqualsTwo{
+		height: 16px;
+		top: 8px;
+	}
+}
+
+@media (max-width: 1110px) and (min-width: 768px){
+	.selection-tariffs__total_discount{
+		bottom: 28px !important;
+	}
+}
+
+.showDiscountNewHasDiscount table{
+    width: 100%;
+}
+
+@media (max-width: 767px){
+	.selection-tariffs__total {
+		text-align: left !important;
+		margin-top: 10px !important;
+		padding-top: 15px !important;
+	}
+}
+
+.palce_for_mobile_selection-tariffs__total .selection-tariffs__total  button{
+	display: none;
+}
+
+@media (max-width: 1024px) {
+	.page__content{
+		/* padding-left: 15px!important; */
+		/* padding-right: 15px!important;  */
+	}
+}
+
+@media (max-width: 1110px) {
+	.content__wrapper {
+               padding: 0px 18px!important;
+	}
+}
+
+/* мобильные тарифы в калькуляторе */
+.selection-tariffs__main .mobile_tariff_wraper{
+
+}
+@media (max-width: 798px) {
+
+	.selection-tariffs__main .mobile_tariff_checkbox{
+		margin-left: 6px;
+	}
+}
+@media (min-width: 798px) {
+	.selection-tariffs__main .mobile_tariff_checkbox{
+		margin-left: -20px;
+	}
+}
+
+.selection-tariffs__main .mobile_tariff_list{}
+.selection-tariffs__main .mobile_tariff_ithem{
+	float: left;
+	border-radius: 5px;
+	border-color: #e5e5e5;
+	border-width: 2px;
+	border-style: solid;
+	padding: 10px;
+}
+
+@media (max-width: 798px) {
+	.selection-tariffs__main .mobile_tariff_ithem{
+		width: 47%;
+		margin: 1%;
+	}
+}
+
+@media (min-width: 798px) {
+	.selection-tariffs__main .mobile_tariff_ithem{
+		width: 23%;
+		margin: 1%;
+	}
+}
+
+.selection-tariffs__main .mobile_tariff_list._active .mobile_tariff_ithem{
+	cursor: pointer;
+}
+
+.selection-tariffs__main .mobile_tariff_list._active .mobile_tariff_ithem._active{
+	border-color: #f1151b!important;
+}
+
+.selection-tariffs__main .mobile_tariff_ithem_internet, .selection-tariffs__main .mobile_tariff_ithem_minutes{
+	font-size: 13px;
+	font-weight: 600;
+}
+.selection-tariffs__main .mobile_tarrif_addon_info{
+	font-size: 13px;
+	font-weight: 600;
+}
+.selection-tariffs__main .mobile_tariff_motivation_for_add{
+	border-top: 2px solid rgba(0, 0, 0, 0.14);
+	font-size: 18px;
+	color: #f1151b;
+	margin-top: 20px;
+	padding-top: 20px;
+
+}
+
+.mobile-tarif-discount-info{
+	display: flex;
+}
+
+.mobile-tarif-discount-info .mobile-tarif-discount-info-el{
+	margin-right: 5px;
+}
+
+.mobile-tarif-discount-info .mobile-tarif-discount-info-el span{
+	font-size: 20px;
+	font-weight: bolder;
+	color: black;
+}
+
+.clear_both{
+	clear: both;
+}
+
+.open_popup_discount_info_btn{
+	display: inline;
+}
+
+.block_popup_modal_discount.open{
+	display: block;
+}
+
+.block_popup_modal_discount{
+	display: none;
+}
+
+.open_popup_discount_info_btn{
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.block_popup_modal_discount.desctop{
+	position: absolute;
+	left: -530px;
+	width: 500px;
+	padding: 15px;
+	top: -30px;
+	background-color: white;
+	box-shadow: 4px 0 10px rgba(0,0,0,0.5);
+}
+
+.close_block_popup_modal_discount{
+	width: 0px;
+	height: 5px;
+	float: right;
+	top: -5px;
+	right: 10px;
+	margin-right: 10px;
+	position: absolute;
+
+}
+
+.close_block_popup_modal_discount:after{
+	content: '\00d7';
+	color: black;
+	font-size: 30px;
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+.showDiscountNewHasDiscountMobile table{
+	width: 100%;
+}
+
+.block_popup_modal_discount.desctop:after{
+	content: '';
+	position: absolute;
+	right: -30px;
+	top: 72px;
+	border: 10px solid transparent;
+	border-left: 20px solid white;
+}
+.block_popup_modal_discount.mobile{
+	position: fixed;
+	background-color: white;
+	top: 0px;
+	left: 0px;
+	z-index: 100;
+}
+.discountNewTableCloseContainer.multi
+{
+	width: 16%;
+}
+.showDiscoubtNullInterbet_new {
+	text-align: left;
+	padding: 10px;
+	color: #373f50;
+	font-size: 26px;
+	font-weight: 600;
+}
+/* End */
+/* /local/templates/.default/components/adv/system.conf/.default/style.css?16148693866535 */

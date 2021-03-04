@@ -1,0 +1,1 @@
+define(["jquery","ui"],function(a){!function(a){"use strict";a.widget("akado.errorreportWidget",{_create:function(){this._initEvents()},_initEvents:function(){a(document).on("keydown",function(b){if(b.ctrlKey&&13==b.which){var c=window.getSelection().toString();a("._feedback__button").trigger("click"),setTimeout(function(){a.publish("errorreport",c)},500)}})}})}(a)});
