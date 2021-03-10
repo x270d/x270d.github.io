@@ -1,60 +1,54 @@
+
+
 @font-face {
   font-family: 'robotolight';
-  src: url('/assets/fonts/Roboto-Light.eot');
-  src: url('/assets/fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/Roboto-Light.woff') format('woff'), url('/assets/fonts/Roboto-Light.ttf') format('truetype'), url('/assets/fonts/Roboto-Light.svg#als_rublregular') format('svg');
+  src: url('./Roboto-Light.eot');
+  src: url('./Roboto-Light.eot?#iefix') format('embedded-opentype'),
+   url('./Roboto-Light.woff') format('woff'), 
+   url('./Roboto-Light.ttf') format('truetype'), 
+   url('./Roboto-Light.svg#als_rublregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'robotobold';
-  src: url('/assets/fonts/Roboto-Bold.eot');
-  src: url('/assets/fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/Roboto-Bold.woff') format('woff'), url('/assets/fonts/Roboto-Bold.ttf') format('truetype'), url('/assets/fonts/Roboto-Bold.svg#als_rublregular') format('svg');
+  src: url('./Roboto-Bold.eot');
+  src: url('./Roboto-Bold.eot?#iefix') format('embedded-opentype'), 
+  url('./Roboto-Bold.woff') format('woff'), 
+  url('./Roboto-Bold.ttf') format('truetype'), 
+  url('./Roboto-Bold.svg#als_rublregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'robotoregular';
-  src: url('/assets/fonts/Roboto-Regular.eot');
-  src: url('/assets/fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/Roboto-Regular.woff') format('woff'), url('/assets/fonts/Roboto-Regular.ttf') format('truetype'), url('/assets/fonts/Roboto-Regular.svg#als_rublregular') format('svg');
+  src: url('./Roboto-Regular.eot');
+  src: url('./Roboto-Regular.eot?#iefix') format('embedded-opentype'), 
+  url('./Roboto-Regular.woff') format('woff'), 
+  url('./Roboto-Regular.ttf') format('truetype'), 
+  url('./Roboto-Regular.svg#als_rublregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Ubuntu-Regular';
-  src: url('/assets/fonts/Ubuntu-Regular.eot');
-  src: url('/assets/fonts/Ubuntu-Regular.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/Ubuntu-Regular.woff') format('woff'), url('/assets/fonts/Ubuntu-Regular.ttf') format('truetype'), url('/assets/fonts/Ubuntu-Regular.svg#als_rublregular') format('svg');
+  src: url('./Ubuntu-Regular.eot');
+  src: url('./Ubuntu-Regular.eot?#iefix') format('embedded-opentype'), 
+  url('./Ubuntu-Regular.woff') format('woff'), 
+  url('./Ubuntu-Regular.ttf') format('truetype'), 
+  url('./Ubuntu-Regular.svg#als_rublregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Ubuntu';
-  src: url('/assets/fonts/Ubuntu-Bold.eot');
-  src: url('/assets/fonts/Ubuntu-Bold.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/Ubuntu-Bold.woff') format('woff'), url('/assets/fonts/Ubuntu-Bold.ttf') format('truetype'), url('/assets/fonts/Ubuntu-Bold.svg#als_rublregular') format('svg');
+  src: url('./Ubuntu-Bold.eot');
+  src: url('./Ubuntu-Bold.eot?#iefix') format('embedded-opentype'), 
+  url('./Ubuntu-Bold.woff') format('woff'), 
+  url('./Ubuntu-Bold.ttf') format('truetype'), 
+  url('./Ubuntu-Bold.svg#als_rublregular') format('svg');
   font-weight: bold;
   font-style: normal;
-}
-@font-face {
-  font-family: 'Rouble';
-  src: url('/assets/fonts/rouble-webfont.eot');
-  src: url('/assets/fonts/rouble-webfont.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/rouble-webfont.woff') format('woff'), url('/assets/fonts/rouble-webfont.ttf') format('truetype'), url('/assets/fonts/rouble-webfont.svg#als_rublregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Ubuntu-SemiBold';
-  src: url('/assets/fonts/Ubuntu-SemiBold.eot');
-  src: url('/assets/fonts/Ubuntu-SemiBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('/assets/fonts/Ubuntu-SemiBold.woff2') format('woff2'), /* Super Modern Browsers */ url('/assets/fonts/Ubuntu-SemiBold.woff') format('woff'), /* Pretty Modern Browsers */ url('/assets/fonts/Ubuntu-SemiBold.ttf') format('truetype'), /* Safari, Android, iOS */ url('/assets/fonts/Ubuntu-SemiBold.svg#svgFontName') format('svg');
-  
-  /* IE9 Compat Modes */
-  /* Legacy iOS */
-}
-@font-face {
-  font-family: 'Roboto Lt';
-  src: url('/assets/fonts/Roboto-Medium.eot');
-  src: url('/assets/fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('/assets/fonts/Roboto-Medium.woff2') format('woff2'), /* Super Modern Browsers */ url('/assets/fonts/Roboto-Medium.woff') format('woff'), /* Pretty Modern Browsers */ url('/assets/fonts/Roboto-Medium.ttf') format('truetype'), /* Safari, Android, iOS */ url('/assets/fonts/Roboto-Medium.svg#svgFontName') format('svg');
-  
-  /* IE9 Compat Modes */
-  /* Legacy iOS */
 }
 html {
   height: 100%;
@@ -287,7 +281,7 @@ label > input[type="radio"] {
 .content,
 .contentINDEX {
   min-height: 400px;
-  background: url('/styles/i/bg_content_full.gif') repeat-y center top;
+  background: url('./bg_content_full.gif') repeat-y center top;
 }
 .trunk {
   width: 994px;
@@ -1179,7 +1173,7 @@ body .breadcrumbs-item-last {
   display: inline-block;
   width: 15px;
   height: 15px;
-  background-image: url(/assets/images/phone-serch.png);
+  background-image: url(./phone-serch.png);
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -1193,7 +1187,7 @@ body .breadcrumbs-item-last {
   display: block;
   width: 17px;
   height: 17px;
-  background: url(/assets/images/icons/search-button.png);
+  background: url(./search-button.png);
   font-size: 0;
   color: transparent;
   border: none;
@@ -1318,13 +1312,13 @@ body .breadcrumbs-item-last {
   background-size: contain;
 }
 .selection-tariffs__resume-img_internet {
-  background-image: url(../images/selection-tariffs/icon-tariff-internet.png);
+  background-image: url(./icon-tariff-internet.png);
 }
 .selection-tariffs__resume-img_channel {
-  background-image: url(../images/selection-tariffs/icon-tariff-channel.png);
+  background-image: url(./icon-tariff-channel.png);
 }
 .selection-tariffs__resume-img_internet_tv {
-  background-image: url(../images/icons/tariff-channel-itv.png);
+  background-image: url(./tariff-channel-itv.png);
 }
 .selection-tariffs__resume-img_mobile {
   background-image: url(../images/icons/mobile-phone-icon.png);
@@ -1786,7 +1780,7 @@ body .breadcrumbs-item-last {
   /* background-size: 46px 23px; */
   background-position: center center;
   /* background-position: left center; */
-  background-image: url(/assets/images/icons/phone-call.jpg);
+  background-image: url(./phone-call.jpg);
   /*background-image: url(/assets/images/icons/phone.png);*/
   /* background-image: url(/assets/images/icons/phone-icon.jpg); */
   position: absolute;
@@ -1824,10 +1818,10 @@ body .breadcrumbs-item-last {
   }
 }
 .akado-provider__block-img_phone-desctop {
-  background-image: url(/assets/images/icons/monito-iphon.png);
+  background-image: url(./monito-iphon.png);
 }
 .akado-provider__block-img_priz {
-  background-image: url(/assets/images/icons/priz.png);
+  background-image: url(./priz.png);
 }
 .akado-provider__block-content {
   padding-bottom: 15px;
@@ -1894,7 +1888,7 @@ body .breadcrumbs-item-last {
   right: 0;
   top: 0;
   bottom: 0;
-  background: url(/assets/images/preloader.svg) center / contain no-repeat;
+  background: url(./preloader.svg) center / contain no-repeat;
   background-size: 20%;
 }
 .ui-btn-preloader {
@@ -1908,7 +1902,7 @@ body .breadcrumbs-item-last {
   top: 0;
   bottom: 0;
   width: 50px;
-  background: url(/assets/images/preloader.svg) center / contain no-repeat;
+  background: url(./preloader.svg) center / contain no-repeat;
   background-size: 50%;
 }
 /* /ui-btn-preloader */
@@ -2171,10 +2165,10 @@ body .breadcrumbs-item-last {
   margin-left: 0;
 }
 .footer__apps.google_play {
-  background: url(/images/google-play-badge.svg) center / cover;
+  background: url(./google-play-badge.svg) center / cover;
 }
 .footer__apps.app_store {
-  background: url(/images/app-store-badge.svg) center / cover;
+  background: url(./app-store-badge.svg) center / cover;
 }
 .footer__apps:hover {
   opacity: 0.8;
@@ -2187,7 +2181,7 @@ body .breadcrumbs-item-last {
   display: none;
 }
 body.__newYearStyle-body {
-  background-image: url("/assets/images/base64/body-newyear-bg.png");
+  background-image: url("./body-newyear-bg.png");
   background-repeat: repeat;
 }
 body.__newYearStyle-body .search__input {
@@ -2199,7 +2193,7 @@ body.__newYearStyle-body .btn._login {
 .__newYearStyle-logo {
   width: 144px;
   height: 34px;
-  background-image: url("/assets/images/base64/logo-newyear-bg.png");
+  background-image: url("./logo-newyear-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   /* display: block !important; */
@@ -2207,7 +2201,7 @@ body.__newYearStyle-body .btn._login {
 }
 .__newYearStyle-header {
   background-color: #222439 !important;
-  background-image: url("/assets/images/base64/header-newyear-bg.png") !important;
+  background-image: url("./header-newyear-bg.png") !important;
   background-repeat: repeat !important;
   position: relative;
 }
@@ -2218,17 +2212,17 @@ body.__newYearStyle-body .btn._login {
   right: 0px;
   width: 100%;
   height: 22px;
-  background-image: url("/assets/images/base64/snow-newyear-bg.png");
+  background-image: url("./snow-newyear-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 0;
 }
 .page__footer.__newYearStyle-footer {
-  background-image: url("/assets/images/base64/footer-newyear-bg.png");
+  background-image: url("./footer-newyear-bg.png");
   background-repeat: repeat;
 }
 .__newYearStyle-button {
-  background-image: url("/assets/images/base64/button-newyear-bg-new.png") !important;
+  background-image: url("./button-newyear-bg-new.png") !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   border-top-left-radius: 8px !important;
@@ -2239,7 +2233,7 @@ body.__newYearStyle-body .btn._login {
   background-color: transparent !important;
 }
 .__newYearStyle-tv-button {
-  background-image: url("/assets/images/base64/tv-button-newyear-bg.png") !important;
+  background-image: url("./tv-button-newyear-bg.png") !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   border-top-left-radius: 8px !important;
@@ -2247,7 +2241,7 @@ body.__newYearStyle-body .btn._login {
   padding: 14px 16px 6px 16px !important;
 }
 .__newYearStyle-geo-button {
-  background-image: url("/assets/images/base64/geo-newyear-bg.png") !important;
+  background-image: url("./geo-newyear-bg.png") !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   border: none !important;
@@ -3508,7 +3502,7 @@ body.__newYearStyle-body .btn._login {
   }
 }
 .connection__info-address .edit-address {
-  background: url('/assets/images/icons/edit-address.png') no-repeat;
+  background: url('./edit-address.png') no-repeat;
   background-size: 18px 18px;
   padding-left: 28px;
   font-size: 14px;
@@ -3659,7 +3653,7 @@ body.__newYearStyle-body .btn._login {
   position: absolute;
   bottom: 18px;
   right: 18px;
-  background: url(/assets/images/icons/calendar-icon.png);
+  background: url(./calendar-icon.png);
   background-position: center;
   background-repeat: no-repeat;
   border: 0;
@@ -6805,7 +6799,7 @@ body.__newYearStyle-body .btn._login {
   background-position: -166px 0px;
 }
 .page__footer .social__item._telegram {
-  background: url('/assets/images/social/telegram.png');
+  background: url('./telegram.png');
   background-position: 0px 0px;
   background-repeat: no-repeat;
 }
@@ -6813,7 +6807,7 @@ body.__newYearStyle-body .btn._login {
   background-position: 0px -36px;
 }
 .page__footer .social__item._viber {
-  background: url('/assets/images/social/viber.png');
+  background: url('./viber.png');
   background-position: 0px 0px;
   background-repeat: no-repeat;
 }
@@ -7338,7 +7332,7 @@ body.__newYearStyle-body .btn._login {
   display: block;
   width: 17px;
   height: 17px;
-  background: url(/assets/images/icons/search-button.png);
+  background: url(./search-button.png);
   font-size: 0;
   color: transparent;
   border: none;
@@ -7538,22 +7532,22 @@ body.__newYearStyle-body .btn._login {
 .page__header .head__site-nav-item ._item-icon._internettv {
   width: 37px;
   background-position: 0px 0px;
-  background: url('/assets/images/icons/internet_tv.png') no-repeat;
+  background: url('./internet_tv.png') no-repeat;
 }
 .page__header .head__site-nav-item ._item-icon._internet {
   width: 32px;
   background-position: 0px 0px;
-  background: url('/assets/images/icons/internet.png') no-repeat;
+  background: url('./internet.png') no-repeat;
 }
 .page__header .head__site-nav-item ._item-icon._tv {
   width: 37px;
   background-position: 0px 0px;
-  background: url('/assets/images/icons/tv.png') no-repeat;
+  background: url('./tv.png') no-repeat;
 }
 .page__header .head__site-nav-item ._item-icon._phone {
   width: 25px;
   background-position: 0px 0px;
-  background: url('/assets/images/icons/phone.png') no-repeat;
+  background: url('./phone.png') no-repeat;
 }
 @media (max-width: 1110px) {
   .page__header .head__site-nav-item ._item-icon {
@@ -7827,7 +7821,7 @@ html.bx-ie .page__header .head__site-nav-connection a {
   padding: 18px 36px;
 }
 .page__header .header__site-mobile-menu .header__dropdown-mobile-menu ._close {
-  background: url('/assets/images/icons/mobile-menu-close.png');
+  background: url('./mobile-menu-close.png');
   display: block;
   width: 38px;
   height: 38px;
@@ -7980,7 +7974,7 @@ html.bx-ie .page__header .head__site-nav-connection a {
   display: block;
   width: 17px;
   height: 17px;
-  background: url(/assets/images/icons/search-button.png);
+  background: url(./search-button.png);
   font-size: 0;
   color: transparent;
   border: none;
@@ -8553,7 +8547,7 @@ html.bx-ie .page__header .head__site-nav-connection a {
   background-color: #808080;
 }
 .media-album__list-item._no-thumb {
-  background: url(/assets/images/icons/player-icon.png) #808080 no-repeat;
+  background: url(./player-icon.png) #808080 no-repeat;
   background-position: center;
 }
 .media-album__list-item a {
@@ -8720,7 +8714,7 @@ html.bx-ie .page__header .head__site-nav-connection a {
 }
 .media__list-item-count-block .__img-count {
   display: inline-block;
-  background: url(/assets/images/icons/camera-icon.png) no-repeat;
+  background: url(./camera-icon.png) no-repeat;
   padding-left: 40px;
   height: 24px;
   line-height: 28px;
@@ -8729,7 +8723,7 @@ html.bx-ie .page__header .head__site-nav-connection a {
 }
 .media__list-item-count-block .__video-count {
   display: inline-block;
-  background: url(/assets/images/icons/player-icon.png) no-repeat;
+  background: url(./player-icon.png) no-repeat;
   padding-left: 40px;
   height: 25px;
   line-height: 28px;
@@ -8881,7 +8875,7 @@ html.bx-ie .page__header .head__site-nav-connection a {
       transform: translate(-50%, -50%);
 }
 .mobile-app-banner .js-close {
-  background: url(/assets/images/icons/close-icon.png);
+  background: url(./close-icon.png);
   display: block;
   width: 16px;
   height: 16px;
@@ -8895,7 +8889,7 @@ html.bx-ie .page__header .head__site-nav-connection a {
 }
 .mobile-top {
   min-height: 474px;
-  background: url('/assets/images/mnvo/mobile-top_bg.jpg') center 0 no-repeat;
+  background: url('./mobile-top_bg.jpg') center 0 no-repeat;
   background-size: cover;
   color: #ffffff;
   display: -ms-flexbox;
@@ -11908,7 +11902,7 @@ html.bx-ie .page__header .head__site-nav-connection a {
 }
 .social-block-item {
   display: inline-block;
-  background: url(/assets/images/icons/social.png);
+  background: url(./social.png);
   background-repeat: no-repeat;
   margin-right: 1px;
 }
@@ -15876,7 +15870,7 @@ width: 100%;
   left: calc(50% - 46px);
   width: 69px;
   height: 54px;
-  background-image: url('/assets/images/200.svg');
+  background-image: url('./200.svg');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -15889,7 +15883,7 @@ width: 100%;
   left: calc(50% - 21px);
   width: 154px;
   height: 54px;
-  background-image: url('/assets/images/100.svg');
+  background-image: url('./100.svg');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;

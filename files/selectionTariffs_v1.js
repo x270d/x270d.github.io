@@ -1,4 +1,4 @@
-define(["jquery","ui","./ion.rangeSlider.min"], function(a){
+define(["jquery","ui","./files/ion.rangeSlider.min.js"], function(a){
 
 	function setDescPromo() {
 

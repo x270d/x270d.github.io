@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+          <div class="check-address__wrapper">
+    <div onclick="return {widget: &quot;checkAddress&quot;}" class="check-address js-widget">
+        <div class="check-address__title">Проверьте, подключен ли ваш дом к «АКАДО Телеком»</div>
+        <form method="post" data-url="/ajax/request/checkaddress.php" action="" class="check-address__form">
+            <div class="check-address__form-town check-address__form-item">
+                <label>Город</label>
+                <select name="city_id" class="check-address__form-town_select __select"><option value="34273">Москва</option><option value="34279">Балашиха</option><option value="189060">Ватутинки (Десеневское Поселение)</option><option value="180715">Ватутинки Пос.</option><option value="34287">Видное</option><option value="205891">Внуково Пос.</option><option value="114331">Внуковское Поселение</option><option value="207369">Горчаково Д.</option><option value="181417">Десеновское П-Е.</option><option value="34280">Домодедово</option><option value="34283">Дубрава К/п</option><option value="189054">Ерино П.</option><option value="189182">Завода Мосрентген Пос.</option><option value="114405">Заречье Рп.</option><option value="34275">Зеленоград</option><option value="34278">Ивантеевка</option><option value="181423">Кленово С.</option><option value="181395">Кокошкино Дп</option><option value="181662">Коммунарка П.</option><option value="180717">Коттон Вэй Пос.</option><option value="181405">Красная Пахра С.</option><option value="34281">Красногорск</option><option value="34274">Люберцы</option><option value="181411">Марушкино Д.</option><option value="181871">Мебельной Фабрики Пос.</option><option value="34285">Московский Г.</option><option value="189598">Отрадное Пос.</option><option value="181429">Первомайское П.</option><option value="34288">Пироговский Пгт</option><option value="180713">Подольск</option><option value="181435">Птичное П.</option><option value="181495">Рогово П.</option><option value="181501">Рублево П.</option><option value="34277">Солнечногорск</option><option value="34282">Творчество Тер. Днп, Первомайское Посел-Е</option><option value="34286">Щелково-7</option><option value="181553">Щербинка Г.</option></select>
+            </div>
+            <div class="check-address__form-address check-address__form-item">
+                <label>Адрес</label>
+                <input autocomplete="off" type="text" name="street_input_value" data-id="0" value="" class="check-address__form-address_select __select">
+                <div class="check-address__form-error">Укажите адрес</div>
+                <div onclick="return {widget: &quot;autocompleteInput&quot;}" class="address__list-block _list-block js-widget"><ul></ul></div>
+            </div>
+            <div class="check-address__form-house check-address__form-item">
+                <label>№ Дома</label>
+                <input autocomplete="off" type="text" name="house_input_value" data-id="0" value="" class="check-address__form-house_select __select">
+                <div class="check-address__form-error">Укажите дом</div>
+                <div onclick="return {widget: &quot;autocompleteInput&quot;}" class="house__list-block _list-block js-widget"><ul></ul></div>
+            </div>
+            <div class="check-address__form-button">
+                <button type="submit" disabled="disabled">Проверить</button>
+            </div>
+        </form></div></div>
+</body>
+</html>

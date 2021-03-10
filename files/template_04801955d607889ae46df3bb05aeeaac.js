@@ -4391,8 +4391,8 @@ window.console || (console = {}), console.log = console.log || function () {
 }, require.config({
     baseUrl: "files/",
     urlArgs: "bust=v145",
-    paths: {/*jquery: "../libs/jquery-2.1.1",*/ ui: "", modules: "", plugins: ""},
-    shim: {"slick.min": ["jquery"], "files/parsley.min": ["jquery"]},
+    paths: {/*jquery: "../libs/jquery-2.1.1",*/ ui: "widget", modules: "../modules", plugins: "../plugins"},
+    shim: {"..files/slick.min": ["jquery"], "./files/parsley.min": ["jquery"]},
     waitSeconds: 0
 /*}), require(["jquery"], function (a) {
     !function (a) {
